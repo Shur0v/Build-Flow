@@ -149,7 +149,7 @@ export default function App() {
         >
           <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
             <img 
-              src="https://picsum.photos/seed/const/1000/1000" 
+              src="https://blog.richardvanhooijdonk.com/wp-content/uploads/2021/12/shutterstock_1821601730.jpg" 
               alt="Modern Construction" 
               className="w-full h-full object-cover"
             />
@@ -311,18 +311,18 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4 pt-12">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
-                <img src="https://picsum.photos/seed/render-a/600/800" alt="Modern Interior" className="w-full h-full object-cover" />
+                <img src="https://magazine.porsche-consulting.com/wp-content/uploads/2020/09/Future_Construction_Machinery_Final8bit-scaled.jpg" alt="Modern Construction Machinery" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
-                <img src="https://picsum.photos/seed/render-b/600/600" alt="Modern Exterior" className="w-full h-full object-cover" />
+                <img src="https://www.sergiev-posad.ru/www/news/2024/7/241011004788019.jpg" alt="Modern Construction Site" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-4">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
-                <img src="https://picsum.photos/seed/render-c/600/600" alt="Kitchen Concept" className="w-full h-full object-cover" />
+                <img src="https://thumbs.dreamstime.com/b/engineers-using-ar-headsets-to-visualize-holographic-skyscraper-amidst-futuristic-construction-site-generative-ai-297119166.jpg" alt="AR Holographic Skyscraper" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
-                <img src="https://picsum.photos/seed/render-d/600/800" alt="Office Space" className="w-full h-full object-cover" />
+                <img src="https://media.licdn.com/dms/image/v2/D5612AQG5N-aaOdaS1w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1703700018455?e=2147483647&v=beta&t=scHFTey0ae9DQgLiO1dsmzRs18k93LxeiPC2-3gOacM" alt="Future Construction" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -334,7 +334,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
-              <img src="https://picsum.photos/seed/eco/1200/800" alt="Sustainable Building" className="w-full h-full object-cover" />
+              <img src="https://gurkankalkan.com/wp-content/uploads/2024/08/2-1.jpg" alt="Sustainable Building for the Next Generation" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4">
               <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">
@@ -475,10 +475,10 @@ export default function App() {
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4">
             <div className="aspect-[4/5] rounded-3xl bg-ci-concrete overflow-hidden">
-              <img src="https://picsum.photos/seed/safety1/600/800" alt="Safety Gear" className="w-full h-full object-cover" />
+              <img src="https://thumbs.dreamstime.com/b/image-inside-building-construction-various-tools-30042221.jpg" alt="Construction Tools" className="w-full h-full object-cover" />
             </div>
             <div className="aspect-[4/5] rounded-3xl bg-ci-concrete overflow-hidden mt-12">
-              <img src="https://picsum.photos/seed/safety2/600/800" alt="Site Inspection" className="w-full h-full object-cover" />
+              <img src="https://dm0mjmp7ekvjx.cloudfront.net/projects/06_71SWackerDr30thFloorRegionalOffice_2010_HiRes.jpg" alt="Office Construction Site" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -539,7 +539,7 @@ export default function App() {
             <Button variant="secondary" size="lg">Check Your Location</Button>
           </div>
           <div className="relative aspect-square md:aspect-auto md:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
-            <img src="https://picsum.photos/seed/map/1000/1000" alt="Regional Map" className="w-full h-full object-cover opacity-50 grayscale" />
+            <img src="https://cdn.prod.website-files.com/6487761fc9643cfd4ff93058/66a7fc3331aaa58bdfbc8a11_6668944e139166e1e1aa3ade_Construction-Project-Phase-2-Design-Pre-construction.webp" alt="Building Communities Across the Nation" className="w-full h-full object-cover" />
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative">
                 <div className="w-4 h-4 bg-ci-safety rounded-full animate-ping absolute inset-0" />
