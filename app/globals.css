@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-roboto-slab), serif;
+
+  --color-ci-bg: #F7F8FA;
+  --color-ci-ink: #1B2636;
+  --color-ci-slate: #2F4858;
+  --color-ci-concrete: #E6E9EC;
+  --color-ci-safety: #F2A900;
+  --color-ci-safety-700: #cf8900;
+  --color-ci-strong: #0E4A6E;
+  --color-ci-strong-700: #0b3a53;
+  --color-ci-success: #2F9A6A;
+  --color-ci-danger: #D97706;
+  --color-ci-muted: #8B95A1;
+  --color-ci-muted-600: #6d7780;
+}
+
+:root {
+  --ci-bg: #F7F8FA;
+  --ci-ink: #1B2636;
+  --ci-slate: #2F4858;
+  --ci-concrete: #E6E9EC;
+  --ci-safety: #F2A900;
+  --ci-strong: #0E4A6E;
+  --ci-success: #2F9A6A;
+  --ci-danger: #D97706;
+  --ci-muted: #8B95A1;
+
+  --ci-strong-700: #0b3a53;
+  --ci-safety-700: #cf8900;
+  --ci-muted-600: #6d7780;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-ci-strong text-white px-6 py-3 rounded-lg font-semibold transition-all hover:bg-ci-strong-700 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-secondary {
+    @apply bg-ci-safety text-ci-ink px-6 py-3 rounded-lg font-semibold transition-all hover:bg-ci-safety-700 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-outline {
+    @apply border-2 border-ci-concrete text-ci-ink px-6 py-3 rounded-lg font-semibold transition-all hover:bg-ci-concrete active:scale-95;
+  }
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-ci-concrete bg-white focus:outline-none focus:ring-2 focus:ring-ci-strong/20 focus:border-ci-strong transition-all;
+  }
+  .card {
+    @apply bg-white border border-ci-concrete rounded-xl shadow-sm overflow-hidden;
+  }
+}

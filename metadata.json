@@ -1,0 +1,5 @@
+{
+  "name": "BuildFlow AI - Construction Intake",
+  "description": "AI-Enhanced Construction Intake and Project Management Portal",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}
